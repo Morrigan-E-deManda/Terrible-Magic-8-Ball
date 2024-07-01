@@ -1,0 +1,42 @@
+import random
+name = "Judas"
+question = "Have I made the right choice?"
+answer = " "
+random.randint(1, 12)
+random_number = random.randint(1, 12)
+if random_number == 1:
+ answer = " "
+elif random_number == 2:
+ answer = " "
+elif random_number == 3:
+ answer = " "
+elif random_number == 4:
+ answer = " "
+elif random_number == 5:
+ answer = " "
+elif random_number == 6:
+ answer = " "
+elif random_number == 7:
+ answer = " "
+elif random_number == 8:
+ answer = " "
+elif random_number == 9:
+ answer = " "
+elif random_number == 10:
+ answer = " "
+elif random_number == 11:
+ answer = " "
+elif random_number == 12:
+ answer = " "
+else:
+ answer = "Error. Please try again."
+if name == " ":
+ print("Question: " + " " + "Answer: " + answer)
+if question == " ":
+ print("Please ask a question")
+print(name + "asks: " + question)
+print("Magic 8-Ball's answer: " + answer)
+
+
+
+
